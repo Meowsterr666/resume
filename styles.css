@@ -1,0 +1,55 @@
+html {
+  font-family: 'Exo 2', sans-serif;
+}
+
+body {
+  background-color: black;
+}
+
+details {
+  color: darkred;
+}
+
+h1 {
+  font-weight: 400;
+  color: darkred;
+  text-align: center;
+}
+
+p {
+  font-weight: 200;
+  font-style: italic;
+  color: hotpink;
+}
+
+li {
+  line-height: 30px;
+  color: hotpink;
+}
+
+ul {
+  list-style: none;
+}
+
+img {
+  width: 100px;
+  height: 100px;
+}
+
+a {
+  color: hotpink;
+}
+
+.ul-date {
+  list-style: circle;
+}
+
+.date {
+  color: darkmagenta;
+}
+
+.center-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
