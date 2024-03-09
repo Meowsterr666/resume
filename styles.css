@@ -1,0 +1,93 @@
+html {
+  font-family: 'Exo 2', sans-serif;
+}
+
+body {
+  background-color: black;
+}
+
+details {
+  color: darkred;
+}
+
+h1 {
+  font-weight: 400;
+  color: darkred;
+  text-align: center;
+}
+
+.ul-job {
+  list-style: circle;
+  margin-bottom: 20px;
+}
+
+.center-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+img {
+  width: 100px;
+  height: 100px;
+}
+
+.summary {
+  text-align: center;
+}
+
+
+p {
+  font-size: 30px;
+  font-weight: 200;
+  font-style: italic;
+  color: hotpink;
+  text-align: center;
+}
+ 
+ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+} 
+
+li {
+  line-height: 30px;
+  color: hotpink;
+}
+
+.date {
+  color: darkmagenta;
+  list-style: none;
+}
+
+.job-title {
+  font-size: 20px;
+  list-style: none;
+  color: aqua;
+}
+
+ul.ul-job {
+  align-items: normal;
+  margin: 0px 356px 0px 356px;
+
+}
+
+a {
+  color: hotpink;
+}
+
+@media screen and (max-width: 768px) {
+  ul.ul-job {
+    align-items: normal;
+    margin: 0px 192px 0px 192px;
+  
+  }
+}
+
+@media screen and (max-width: 768px) {
+  ul.ul-job {
+    align-items: normal;
+    margin: 0px 40px 0px 40px;
+  }
+}
